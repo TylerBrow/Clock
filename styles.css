@@ -1,0 +1,37 @@
+Html {
+    box-sizing: border-box;
+}
+
+*,* ::after, *::before {
+    box-sizing: inherit;
+}
+body {
+   background-color: black;
+   
+}
+div {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+/* @keyframes change {
+    0% {top: -200px; left: 0px;}
+    25% {top: 800px; left: 800px;}
+    50% {top: -200px; left: 800px;}
+    100% {top: -200px; left: 0px;}
+} */
+p {
+    /* position: relative;
+    top: -200px; */
+    font-size: 250px;
+    color: green;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}
